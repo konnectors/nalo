@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "name": "Nalo",
+  "type": "konnector",
+  "language": "node",
+  "icon": "nalo.png",
+  "slug": "nalo",
+  "source": "git@github.com:konnectors/nalo.git",
+  "editor": "Cozy",
+  "vendor_link": "https://nalo.fr/",
+  "categories": ["banking"],
+  "frequency": "daily",
+  "fields": {
+    "login": {
+      "type": "text"
+    },
+    "password": {
+      "type": "password"
+    },
+    "advancedFields": {
+      "folderPath": {
+        "advanced": true,
+        "isRequired": false
+      }
+    }
+  },
+  "data_types": [
+    "bankAccounts",
+    "bankTransactions"
+  ],
+  "screenshots": [],
+  "permissions": {
+    "files": {
+      "type": "io.cozy.files"
+    },
+    "accounts": {
+      "type": "io.cozy.accounts",
+      "verbs": ["GET"]
+    },
+    "bank operations": {
+      "type": "io.cozy.bank.operations"
+    },
+    "bank balancehistories": {
+      "type": "io.cozy.bank.balancehistories"
+    },
+    "bank accounts": {
+      "type": "io.cozy.bank.accounts"
+    }
+  },
+  "developer": {
+    "name": "dohseven",
+    "url": "https://github.com/dohseven"
+  },
+  "langs": ["fr", "en"],
+  "locales": {
+    "fr": {
+      "short_description": "Récupère vos opérations bancaires",
+      "long_description": "Récupère vos opérations bancaires",
+      "permissions": {
+        "bank.accounts": {
+          "description": "Utilisé pour enregistrer la liste de vos comptes bancaires"
+        },
+        "bank.operations": {
+          "description": "Utilisé pour enregistrer les transactions bancaires de vos comptes"
+        },
+        "accounts": {
+          "description": "Utilisé pour obtenir les données du compte"
+        },
+        "bank.balancehistories": {
+          "description": "Utilisé pour enregistrer l'historique du solde de vos comptes"
+        },
+        "files": {
+          "description": "Utilisé pour enregistrer les extraits de compte"
+        }
+      }
+    },
+    "en": {
+      "short_description": "Retrieves your bank operations",
+      "long_description": "Retrieves your bank operations",
+      "permissions": {
+        "bank.accounts": {
+          "description": "Required to save the list of bank accounts"
+        },
+        "bank.operations": {
+          "description": "Required to save your bank operations"
+        },
+        "accounts": {
+          "description": "Required to get the account's data"
+        },
+        "bank.balancehistories": {
+          "description": "Required to save balance histories"
+        },
+        "files": {
+          "description": "Required to save the account statements"
+        }
+      }
+    }
+  },
+  "manifest_version": "2"
+}
