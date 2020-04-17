@@ -54,8 +54,8 @@
   "langs": ["fr", "en"],
   "locales": {
     "fr": {
-      "short_description": "Récupère vos opérations bancaires",
-      "long_description": "Récupère vos opérations bancaires",
+      "short_description": "Récupère vos opérations bancaires Nalo",
+      "long_description": "Nalo est une société française d'assurance vie accessible sur [https://nalo.fr/](nalo.fr)\n\n**Connectez votre compte Nalo à votre Cozy pour récupérer**\n\n- vos soldes bancaires\n\n**Sauvegardez vos identifiants avec Pass**\n\nEn installant le gestionnaire de mots de passe, vos identifiants sont sauvegardés une bonne fois\npour toutes pour vous faciliter la connexion au site de Nalo. Adieu les mots de passe oubliés !\n\n**Configuration**\n\nPour connecter votre compte, il vous suffit de renseigner dans les champs :\n\n- votre login\n- votre mot de passe\n\nUne fois connecté, votre Cozy se connectera régulièrement à votre compte Nalo pour récupérer les\nnouveaux éléments et les historiser dans votre application Banks\n\nSi vous déconnectez votre compte Nalo, les informations déjà sauvegardées dans votre Cozy restent disponibles. Vous pouvez les supprimer manuellement par ailleurs.",
       "permissions": {
         "bank.accounts": {
           "description": "Utilisé pour enregistrer la liste de vos comptes bancaires"
@@ -76,7 +76,7 @@
     },
     "en": {
       "short_description": "Retrieves your bank operations",
-      "long_description": "Retrieves your bank operations",
+      "long_description": "Nalo is a French live insurance company.\n\n**Connect your Nalo account to your Cozy for getting**\n\n- your bank accounts\n\n**Save your credentials with Pass**\n\nWith Pass, you will never forget a password again as your credentials are automatically saved in by activating the password manager.\n\n**Configuration**\n\nTo connect your account, you just have to fill in the fields :\n- your login\n- your password\n\nOnce logged in, your Cozy will automatically connect to your Nalo account to retrieve new items\n\nIf you disconnect your Nalo account, the information already saved in your Cozy remains available. You can delete them manually elsewhere.",
       "permissions": {
         "bank.accounts": {
           "description": "Required to save the list of bank accounts"
