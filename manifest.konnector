@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.0.0",
   "name": "Nalo",
   "type": "konnector",
   "language": "node",
@@ -8,9 +8,7 @@
   "source": "git@github.com:konnectors/nalo.git",
   "editor": "Cozy",
   "vendor_link": "https://nalo.fr/",
-  "categories": [
-    "banking"
-  ],
+  "categories": ["banking"],
   "frequency": "daily",
   "fields": {
     "login": {
@@ -37,9 +35,7 @@
     },
     "accounts": {
       "type": "io.cozy.accounts",
-      "verbs": [
-        "GET"
-      ]
+      "verbs": ["GET"]
     },
     "bank operations": {
       "type": "io.cozy.bank.operations"
@@ -55,10 +51,7 @@
     "name": "dohseven",
     "url": "https://github.com/dohseven"
   },
-  "langs": [
-    "fr",
-    "en"
-  ],
+  "langs": ["fr", "en"],
   "locales": {
     "fr": {
       "short_description": "Récupère vos opérations bancaires Nalo",
