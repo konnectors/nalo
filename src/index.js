@@ -35,7 +35,7 @@ const request = requestFactory({
   userAgent: true
 })
 
-const baseApiUrl = 'https://nalo.fr/api/v1'
+const baseApiUrl = 'https://api.nalo.fr/api/v1'
 
 module.exports = new BaseKonnector(start)
 
